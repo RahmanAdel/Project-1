@@ -1,88 +1,164 @@
 /* Universal */
-*{
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Work Sans";
 }
-.header{
-    background-image: url(../images/banner/banner2.png);
-    background-repeat: no-repeat;
-    background-size: 100%, 100%;
-    height: 1000px;
+.header {
+  background-image: url(../images/banner/banner2.png);
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+  height: 1000px;
 }
 .btn-primary {
-    color: #444343;
-    font-weight: 700;
-    font-size: 20px;
-    height: 64px;
-    border-radius: 5px;
-    background: #fd6e0a;
-    border: 0;
-    margin: 20px 0 20px 0;
-    width: fit-content;
-  }
+  color: #444343;
+  font-weight: 700;
+  font-size: 20px;
+  height: 64px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0;
+  margin: 20px 0 20px 0;
+  width: fit-content;
+}
 
 /* Banner Styles */
-.banner-title{
-    text-align: right;
-    font-weight: 900;
-    font-size: 40px;
-    color: #fd6e0a;
-    padding: 180px 200px;
+.banner-title {
+  text-align: right;
+  font-weight: 900;
+  font-size: 40px;
+  color: #fd6e0a;
+  padding: 180px 200px;
 }
-.banner-description{
-    color: #444343;
-    font-weight: 400;
-    font-size: 16px;
-    max-width: 500px;
-    padding: 20px 0 0 1000px;
-    text-align: right;
+.banner-description {
+  margin: auto;
+  color: #444343;
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 500px;
+  padding: 20px 0 0 1460px;
+  text-align: right;
 }
 
 /* Main Section */
-.main{
-    max-width: 1140px;
-    margin: 0 auto;
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 /* Failures Styles */
-.failure-section{
-    padding-left: 1000px;
-    margin-top: 10px;
+.failure-section {
+  padding-left: 1000px;
+  margin-top: 10px;
 }
-.failure-title{
-    /* display: flex;
-    margin-left: 1000px; */
-    margin-bottom: 18px;
-    font-weight: 900;
-    font-size: 45px;
-    max-width: 480px;
+.failure-title {
+  margin-bottom: 18px;
+  font-weight: 900;
+  font-size: 45px;
+  max-width: 480px;
 }
-.div-failure-image{
-   margin-left: 300px;
-    
+.div-failure-image {
+  margin-left: 500px;
 }
-.failure-description{
-    font-weight: 400;
-    font-size: 16px;
-    max-width: 500px;
-    margin-bottom: 18px;
-    
+.failure-description {
+  font-weight: 400;
+  font-size: 16px;
+  max-width: 500px;
+  margin-bottom: 18px;
 }
-.failure-prev{
-    display: flex;
-    padding-top: 90px;
-    align-items: center;
-    /* justify-content: space-around; */
+.failure-prev {
+  display: flex;
+  padding-top: 90px;
+  align-items: center;
+}
+.about-failure {
+  margin-left: 150px;
+}
+.failure-list {
+  padding-left: 20px;
+}
+.failure-sublist {
+  padding-top: 20px;
+}
 
+/* My Plans Styles */
+.my-plans {
+  margin-top: 200px;
+  padding-left: 50%;
+  font-weight: 700;
+  font-size: 40px;
 }
-.about-failure{
-    margin-left: 150px;
+.plans-container {
+  display: flex;
+  gap: 24px;
+  margin-left: 0;
+  justify-content: space-around;
+  margin-top: 40px;
+  align-items: center;
 }
-.failure-list{
-    /* list-style: none; */
-    padding-left: 20px;
+.plans-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 14px;
 }
-.failure-sublist{
-    /* padding-right: 500px; */
-    padding-top: 20px;
+.plans-description {
+  font-weight: 500;
+  font-size: 20px;
+  color: #737272;
+  align-items: center;
+}
+.plans-web .plans-description {
+  margin-left: 22%;
+  margin-left: 22%;
+}
+.plans-js .plans-description {
+  padding-left: 10px;
+}
+.plans-smoke .plans-description {
+  padding-left: 45px;
+}
+.plans-smoke .plans-description {
+  padding-left: 45px;
+}
+.image-web {
+  margin-left: 90px;
+}
+.image-js {
+  padding-left: 30px;
+}
+.image-smoke {
+  padding-left: 60px;
+}
+.image-ecom {
+  margin-left: 20px;
+}
+
+/* Gradient Styles */
+.btn-call {
+  color: #444343;
+  font-weight: 700;
+  font-size: 20px;
+  height: 64px;
+  border-radius: 5px;
+  background: #ffffff;
+  border: 0;
+  width: fit-content;
+  position: absolute;
+  top: 200px;
+  margin-top: 180px;
+  margin-left: 100px;
+}
+.bg-text {
+  position: absolute;
+  top: 200px;
+  margin-top: 80px;
+  font-weight: 700;
+  font-size: 40px;
+  margin-left: 100px;
+  max-width: 500px;
+}
+#gradient-over-bg {
+  display: flex;
+  padding-left: 500px;
+  padding-top: 200px;
+  position: relative;
 }
